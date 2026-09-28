@@ -60,7 +60,7 @@ Bendito seja Deus nos seus anjos e nos seus santos.
 
 ## Interceções após a bênção do Santíssimo Sacramento
 
-Deus e Senhor nosso, protegei a vossa Igreja, dai-lhe santos pastores e dignos ministros. Derramai as vossas bênçãos sobre o nosso Santo Padre, o papa, sobre o nosso arcebispo, sobre o nosso pároco e todo o clero, sobre o chefe da nação e do Estado e sobre todas as pessoas constituídas em dignidade para que governem com justiça.
+Deus e Senhor nosso, protegei a vossa Igreja, dai-lhe santos pastores e dignos ministros. Derramai as vossas bênçãos sobre o nosso Santo Padre, o papa, sobre o nosso arcebispo, e bispos auxiliares, sobre o nosso pároco e todo o clero, sobre o chefe da nação e do Estado e sobre todas as pessoas constituídas em dignidade para que governem com justiça.
 
 Dai ao povo brasileiro paz constante e prosperidade completa. Favorecei com os efeitos contínuos de vossa bondade o Brasil, este arcebispado, a paróquia em que habitamos, cada um de nós em particular e todas as pessoas por quem somos obrigados a rezar ou que se recomendaram às nossas orações.
 
@@ -79,4 +79,5 @@ Texto transcrito e conferido linha a linha contra as imagens das 3 páginas esca
 - "purgatório.Dai-lhes" → espaço após o ponto (p. 3).
 - Versos longos do "Depois da bênção" que o impresso quebrou em duas linhas por falta de espaço foram reunidos numa linha só por invocação.
 - Invertida a ordem de "Imaculada Conceição" e "Gloriosa Assunção" (o impresso trazia a Assunção antes), a pedido, conforme a ordem tradicional dos Louvores Divinos.
+- Acrescentado "e bispos auxiliares" após "sobre o nosso arcebispo" nas Interceções, a pedido.
 - Mantida a grafia "Interceções" do impresso (variante aceita pelo Acordo Ortográfico).
