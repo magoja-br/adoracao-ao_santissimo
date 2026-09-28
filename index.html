@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bênção do Santíssimo</title>
+<meta name="description" content="Bênção do Santíssimo: Tão sublime Sacramento, oração, louvores Bendito seja Deus, canto Bendito, louvado seja e interceções após a bênção.">
+<meta property="og:title" content="Bênção do Santíssimo">
+<meta property="og:description" content="Orações e cantos para a Bênção do Santíssimo Sacramento.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%A0%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ouro: #a67c2e; --vinho: #7a1f2b; --tinta: #2a2420; --suave: #6b5f55;
+    --papel: #fdfaf3; --cartao: #ffffff; --linha: #e6dcc6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ouro: #d4ac5c; --vinho: #e3a0a8; --tinta: #ece4d6; --suave: #b3a898;
+      --papel: #1a1614; --cartao: #231e1b; --linha: #3d342c;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ouro: #d4ac5c; --vinho: #e3a0a8; --tinta: #ece4d6; --suave: #b3a898;
+    --papel: #1a1614; --cartao: #231e1b; --linha: #3d342c;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--papel); color: var(--tinta);
+         font-family: "EB Garamond", Garamond, Georgia, serif; font-size: 1.2rem; line-height: 1.6; }
+
+  header.capa { text-align: center; padding: 3rem 1rem 2rem; }
+  .ostensorio { width: 150px; max-width: 45vw; height: auto; }
+  h1 { font-family: Cinzel, serif; font-weight: 700; color: var(--vinho);
+       font-size: clamp(2rem, 7vw, 3rem); letter-spacing: .05em; line-height: 1.15; margin: 1.2rem 0 .4rem; }
+  .sub { font-style: italic; color: var(--ouro); margin: 0; }
+
+  nav.indice { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; padding: 0 1rem 1.5rem; }
+  nav.indice a, .botao { font-family: Cinzel, serif; font-size: .78rem; letter-spacing: .06em; text-decoration: none;
+       color: var(--vinho); border: 1px solid var(--linha); background: var(--cartao);
+       padding: .45rem .8rem; border-radius: 999px; }
+  nav.indice a:hover, .botao:hover { border-color: var(--ouro); }
+
+  main { max-width: 640px; margin: 0 auto; padding: 0 16px 2rem; }
+  section { background: var(--cartao); border: 1px solid var(--linha); border-radius: 12px;
+            padding: 2rem 1.4rem; margin-bottom: 1.5rem; scroll-margin-top: 1rem; }
+  h2 { font-family: Cinzel, serif; font-weight: 500; color: var(--vinho); text-align: center;
+       font-size: 1.3rem; letter-spacing: .04em; line-height: 1.3; margin: 0; }
+  h2 .num { display: block; font-size: .8rem; color: var(--ouro); letter-spacing: .3em; margin-bottom: .2rem; }
+  .fio { text-align: center; color: var(--ouro); margin: .3rem 0 1.3rem; }
+
+  .estrofe { width: fit-content; max-width: 100%; margin: 0 auto 1.2rem; }
+  .estrofe p { margin: 0; }
+  .amem { margin-top: .4rem !important; font-style: italic; }
+
+  .dialogo { margin: 1.5rem 0; padding: .9rem 0; border-top: 1px solid var(--ouro); border-bottom: 1px solid var(--ouro); text-align: center; }
+  .dialogo p { margin: .15rem 0; }
+  .v { font-style: italic; }
+  .r { font-weight: 600; }
+  .sigla { font-family: Cinzel, serif; color: var(--vinho); font-size: .75rem; font-weight: 700; margin-right: .35rem; font-style: normal; }
+
+  .oracao { text-align: justify; hyphens: auto; margin: 0; }
+  .oremos { font-family: Cinzel, serif; color: var(--vinho); font-weight: 700; font-size: .95rem; letter-spacing: .05em; }
+  .resposta { text-align: right; font-weight: 600; margin: .4rem 0 0; }
+
+  ul.louvores { list-style: none; padding: 0; margin: 0; }
+  ul.louvores li { padding: .3rem 0 .3rem 1.4rem; position: relative; border-bottom: 1px dashed var(--linha); }
+  ul.louvores li:last-child { border-bottom: 0; }
+  ul.louvores li::before { content: "✠"; position: absolute; left: 0; top: .45rem; color: var(--ouro); font-size: .75rem; }
+
+  .canto { width: fit-content; max-width: 100%; margin: 0 auto; }
+  .canto .est { display: flex; gap: .8rem; margin-bottom: .8rem; }
+  .canto .n { font-family: Cinzel, serif; color: var(--ouro); font-weight: 700; }
+  .bis { font-size: .8em; font-style: italic; color: var(--ouro); }
+
+  .prosa p { text-align: justify; hyphens: auto; text-indent: 1.5rem; margin: 0 0 .8rem; }
+  .prosa p:first-child { text-indent: 0; }
+  .prosa p:first-child::first-letter { font-family: Cinzel, serif; color: var(--vinho); float: left;
+       font-size: 3.1rem; line-height: .85; padding: .3rem .4rem 0 0; }
+  .final { text-align: center; font-style: italic; color: var(--vinho); margin: 1.2rem 0 0; }
+
+  footer { text-align: center; padding: 1rem 16px 3rem; color: var(--suave); font-size: .95rem; }
+  footer .cruz { color: var(--ouro); font-size: 1.4rem; display: block; margin-bottom: 1rem; }
+  .acoes { display: flex; gap: .5rem; justify-content: center; flex-wrap: wrap; }
+  button.botao { cursor: pointer; font: inherit; font-family: Cinzel, serif; font-size: .78rem; }
+
+  @media (max-width: 420px) {
+    body { font-size: 1.1rem; }
+    section { padding: 1.5rem 1rem; }
+  }
+  @media print {
+    body { background: #fff; color: #000; }
+    nav.indice, .acoes { display: none; }
+    section { border: 0; break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<header class="capa">
+  <svg class="ostensorio" viewBox="0 -4 200 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g stroke="var(--ouro)" stroke-linecap="round">
+      <g stroke-width="1.6">
+        <line x1="100" y1="90" x2="100" y2="10"/><line x1="100" y1="90" x2="20" y2="90"/><line x1="100" y1="90" x2="180" y2="90"/>
+        <line x1="100" y1="90" x2="43" y2="33"/><line x1="100" y1="90" x2="157" y2="33"/>
+        <line x1="100" y1="90" x2="43" y2="147"/><line x1="100" y1="90" x2="157" y2="147"/>
+      </g>
+      <g stroke-width="0.8">
+        <line x1="100" y1="90" x2="69" y2="16"/><line x1="100" y1="90" x2="131" y2="16"/>
+        <line x1="100" y1="90" x2="26" y2="59"/><line x1="100" y1="90" x2="174" y2="59"/>
+        <line x1="100" y1="90" x2="26" y2="121"/><line x1="100" y1="90" x2="174" y2="121"/>
+        <line x1="100" y1="90" x2="69" y2="164"/><line x1="100" y1="90" x2="131" y2="164"/>
+      </g>
+      <line x1="100" y1="10" x2="100" y2="-2" stroke-width="3"/>
+      <line x1="94" y1="2" x2="106" y2="2" stroke-width="3"/>
+      <path d="M100 124 L100 232" stroke-width="5"/>
+    </g>
+    <circle cx="100" cy="90" r="34" fill="var(--papel)" stroke="var(--ouro)" stroke-width="3"/>
+    <circle cx="100" cy="90" r="27" fill="var(--cartao)" stroke="var(--ouro)" stroke-width="1"/>
+    <text x="100" y="96" text-anchor="middle" font-family="Cinzel, serif" font-size="15" fill="var(--vinho)" font-weight="700">IHS</text>
+    <ellipse cx="100" cy="190" rx="10" ry="6" fill="var(--ouro)"/>
+    <path d="M60 248 Q100 205 140 248 Z" fill="var(--ouro)"/>
+    <rect x="52" y="246" width="96" height="6" rx="2" fill="var(--ouro)"/>
+  </svg>
+  <h1>Bênção do<br>Santíssimo</h1>
+  <p class="sub">Adoração ao Santíssimo Sacramento</p>
+</header>
+
+<nav class="indice" aria-label="Índice">
+  <a href="#tao-sublime">Tão Sublime</a>
+  <a href="#depois-da-bencao">Depois da Bênção</a>
+  <a href="#bendito-louvado">Bendito, Louvado</a>
+  <a href="#intercecoes">Interceções</a>
+</nav>
+
+<main>
+<section id="tao-sublime">
+  <h2>Tão Sublime Sacramento</h2>
+  <div class="fio">❦</div>
+  <div class="estrofe">
+    <p>Tão sublime Sacramento</p>
+    <p>Adoremos neste altar,</p>
+    <p>Pois o Antigo Testamento</p>
+    <p>Deu ao Novo seu lugar.</p>
+    <p>Venha a Fé, por suplemento,</p>
+    <p>Os sentidos completar.</p>
+  </div>
+  <div class="estrofe">
+    <p>Ao eterno Pai cantemos,</p>
+    <p>E a Jesus, o Salvador;</p>
+    <p>Ao Espírito exaltemos,</p>
+    <p>Na Trindade, Eterno Amor:</p>
+    <p>Ao Deus Uno, e Trino demos</p>
+    <p>A alegria do louvor.</p>
+    <p class="amem">Amém, Amém.</p>
+  </div>
+  <div class="dialogo">
+    <p class="v"><span class="sigla">PR.</span>Do Céu lhes destes o Pão (Aleluia).</p>
+    <p class="r"><span class="sigla">R.</span>Que contém todo sabor (Aleluia).</p>
+  </div>
+  <p class="oracao"><span class="oremos">Oremos</span> – Deus, que neste admirável sacramento, nos deixastes o memorial da vossa Paixão, concedei-nos tal veneração pelos sagrados mistérios do vosso corpo e do vosso sangue, que experimentemos sempre em nós a sua eficácia redentora. Vós que viveis e reinais pelos séculos dos séculos.</p>
+  <p class="resposta"><span class="sigla">R.</span>Amém.</p>
+</section>
+
+<section id="depois-da-bencao">
+  <h2>Depois da Bênção</h2>
+  <div class="fio">❦</div>
+  <ul class="louvores">
+    <li>Bendito seja Deus.</li>
+    <li>Bendito seja seu santo nome.</li>
+    <li>Bendito seja Jesus Cristo, verdadeiro Deus e verdadeiro homem.</li>
+    <li>Bendito seja o nome de Jesus.</li>
+    <li>Bendito seja o seu Sacratíssimo Coração.</li>
+    <li>Bendito seja seu Preciosíssimo Sangue.</li>
+    <li>Bendito seja Jesus no Santíssimo Sacramento do Altar.</li>
+    <li>Bendito seja o Espírito Santo Paráclito.</li>
+    <li>Bendita seja a grande Mãe de Deus, Maria Santíssima.</li>
+    <li>Bendita seja a sua Santa e Imaculada Conceição.</li>
+    <li>Bendita seja a sua Gloriosa Assunção.</li>
+    <li>Bendito seja o nome de Maria, Virgem e Mãe.</li>
+    <li>Bendito seja São José, seu castíssimo esposo.</li>
+    <li>Bendito seja Deus nos seus anjos e nos seus santos.</li>
+  </ul>
+</section>
+
+<section id="bendito-louvado">
+  <h2>Bendito, Louvado Seja!</h2>
+  <div class="fio">❦</div>
+  <div class="canto">
+    <div class="est"><span class="n">1.</span><div>Bendito, louvado seja <span class="bis">(bis)</span><br>O Santíssimo Sacramento <span class="bis">(bis)</span></div></div>
+    <div class="est"><span class="n">2.</span><div>Os homens, todos os homens <span class="bis">(bis)</span><br>O Santíssimo Sacramento <span class="bis">(bis)</span></div></div>
+    <div class="est"><span class="n">3.</span><div>Fazei-nos, Virgem Maria <span class="bis">(bis)</span><br>Sacrários vivos da Eucaristia <span class="bis">(bis)</span></div></div>
+  </div>
+</section>
+
+<section id="intercecoes">
+  <h2>Interceções após a Bênção do Santíssimo Sacramento</h2>
+  <div class="fio">❦</div>
+  <div class="prosa">
+    <p>Deus e Senhor nosso, protegei a vossa Igreja, dai-lhe santos pastores e dignos ministros. Derramai as vossas bênçãos sobre o nosso Santo Padre, o papa, sobre o nosso arcebispo, sobre o nosso pároco e todo o clero, sobre o chefe da nação e do Estado e sobre todas as pessoas constituídas em dignidade para que governem com justiça.</p>
+    <p>Dai ao povo brasileiro paz constante e prosperidade completa. Favorecei com os efeitos contínuos de vossa bondade o Brasil, este arcebispado, a paróquia em que habitamos, cada um de nós em particular e todas as pessoas por quem somos obrigados a rezar ou que se recomendaram às nossas orações.</p>
+    <p>Tende misericórdia das almas dos fiéis que padecem no purgatório. Dai-lhes, Senhor, o descanso e a luz eterna. Amém.</p>
+  </div>
+  <p class="final">Pai-Nosso, Ave-Maria e Glória ao Pai.</p>
+</section>
+</main>
+
+<footer>
+  <span class="cruz">✠</span>
+  <div class="acoes">
+    <a class="botao" href="bencao-do-santissimo.pdf" download>Baixar PDF</a>
+    <button class="botao" type="button" id="tema">Alternar tema</button>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement, KEY = "tema-bencao";
+    try { var t = localStorage.getItem(KEY); if (t) root.setAttribute("data-theme", t); } catch (e) {}
+    document.getElementById("tema").addEventListener("click", function () {
+      var atual = root.getAttribute("data-theme") ||
+        (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      var novo = atual === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", novo);
+      try { localStorage.setItem(KEY, novo); } catch (e) {}
+    });
+  })();
+</script>
+</body>
+</html>
